@@ -68,7 +68,7 @@ public class LibrarianLogin extends JFrame {
 			String name=textField.getText();
 			String password=String.valueOf(passwordField.getPassword());
 			//System.out.println(name+" "+password);
-			if(name.equals("Librarian_01")&&password.equals("LibrarianOne")){
+			if(name.equals("Librarian_01","Librarian_02","Librarian_03")&&password.equals("LibrarianOne","LibrarianTwo","LibrarianThree")){
 				LibrarianSuccess.main(new String[]{});
 				frame.dispose();
 				//successful else
